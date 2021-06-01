@@ -23,4 +23,5 @@ Tier 5 Silenced SMG
 BUGS:
 ----
 if gear doesn't appear at spawn you can get them by typing in console "give pumpshotgun", "give smg" or "give smg_silenced"
+
 ps idk if this works with other addons so if anything weird is happening, delete your other addons
