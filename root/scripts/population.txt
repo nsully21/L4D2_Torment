@@ -1,0 +1,365 @@
+Population
+{
+	//------------------------------------------------------------------------
+	// Areas are defined in the map or the nav file.  Right now we're using
+	// nav place names.  If no place name is used, we look for 'default'.
+	// Populations are lists of models, with percentages adding up to 100.
+	// Model names should be specified without the .mdl extension, and
+	// without the directory name (this assumes all infected models are in
+	// models/infected).
+
+	
+
+	//------------------------------------------------------------------------
+	default
+	{
+		common_male_tshirt_cargos	100
+		common_male_tankTop_jeans	100
+		common_male_dressShirt_jeans	100
+		common_female_tankTop_jeans	100
+		common_female_tshirt_skirt	100
+	}
+
+
+	defaultcemetery
+	{
+		common_male_tankTop_jeans	100
+		common_female_tankTop_jeans	100
+	}
+
+
+
+	defaultmilltown
+	{
+		common_male_tankTop_jeans	100
+		common_female_tankTop_jeans	100
+		common_male_roadcrew		100
+	}
+
+	defaultmilltown_mob
+	{
+		common_male_tankTop_jeans	100
+		common_female_tankTop_jeans	100
+		common_male_roadcrew		100
+	}
+
+
+	defaultsugarmill
+	{
+		common_male_tankTop_overalls	100
+		common_female_tankTop_jeans	100
+		common_male_roadcrew		100
+	}
+
+	defaultsugarmill_mob
+	{
+		common_male_tankTop_overalls	100
+		common_male_roadcrew		100
+	}
+
+	defaultmilltown_rain
+	{
+		common_male_tankTop_jeans_rain	100
+		common_female_tankTop_jeans_rain	100
+		common_male_roadcrew_rain		100
+	}
+
+	defaultmilltown_rain_mob
+	{
+		common_male_tankTop_jeans_rain	100
+		common_female_tankTop_jeans_rain	100
+		common_male_roadcrew_rain		100
+		common_male_mud				100
+	}
+
+
+	defaultsugarmill_rain
+	{
+		common_male_tankTop_overalls_rain	100
+		common_female_tankTop_jeans_rain	100
+		common_male_roadcrew_rain	100
+	}
+
+	defaultsugarmill_rain_mob
+	{
+		common_male_tankTop_overalls_rain	100
+		common_male_roadcrew_rain		100
+		common_male_mud				100
+	}
+	
+	// C3 
+	//------------------------------------------------------------------------
+	defaultswamp
+	{
+		common_male_tshirt_cargos	100
+		common_male_tankTop_overalls	100
+		common_female_tankTop_jeans	100
+		common_female_tshirt_skirt	100
+	}
+		deepswamp
+		{
+			common_male_tshirt_cargos_swamp		100
+			common_male_tankTop_overalls_swamp	100
+			common_female_tshirt_skirt_swamp	100
+			common_male_mud				100
+		}
+	
+
+	//------------------------------------------------------------------------
+	test_common_male_suit
+	{
+		common_male_suit	100
+	}
+
+
+	//Urban Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaulturban
+	{
+		common_male01		100
+		common_female01		100
+		common_police_male01	100
+		common_military_male01	100
+		common_worker_male01	100
+		common_male_suit 	100
+	}
+
+		//------------------------------------------------------------------------
+		police
+		{
+			common_male01		100
+			common_female01		100
+			common_military_male01	100
+			common_police_male01 	100
+		}
+
+		//------------------------------------------------------------------------
+		maintenance
+		{
+			common_male01		100
+			common_female01		100
+			common_military_male01	100
+			common_worker_male01	100
+		}
+
+		//------------------------------------------------------------------------
+		hospitalgrounds
+		{
+			common_male01		100
+			common_female01		100
+			common_police_male01	100
+			common_military_male01	100
+			common_worker_male01	100
+			common_male_suit 	100
+		}
+
+
+
+	//------------------------------------------------------------------------
+	hospital
+	{
+		common_male01		100
+		common_patient_male01 	100
+		common_worker_male01	100
+		common_female_nurse01	100
+		common_surgeon_male01	100
+	}
+
+		//------------------------------------------------------------------------
+		hospitalconstruction
+		{
+			common_patient_male01 	100
+			common_worker_male01	100
+			common_female_nurse01	100
+			common_surgeon_male01	100
+			common_male01	 	100
+		}
+
+
+
+	//------------------------------------------------------------------------
+	airport
+	{
+		common_female01			100
+		common_male_suit 		100
+		common_worker_male01		100
+		common_male_baggagehandler_01	100
+		common_tsaagent_male01		100
+		common_male_pilot		100
+	}
+	
+		//------------------------------------------------------------------------
+		airportfinale
+		{
+			common_female01			100
+			common_male_suit 		100
+			common_worker_male01		100
+			common_male_baggagehandler_01	100
+			common_tsaagent_male01		100
+			common_male_pilot		100
+		}
+	
+
+
+
+	//Rural Populations and sub-populations
+	//------------------------------------------------------------------------
+	defaultrural
+	{
+		common_male_rural01 	100
+		common_female_rural01	100
+		common_police_male01	100
+		common_military_male01	100
+		common_worker_male01	100
+	}
+
+
+	//Adding CEDA for Campaign 5
+	//------------------------------------------------------------------------
+	crescentcity
+	{
+		common_male_tshirt_cargos	100
+		common_male_tankTop_jeans	100
+		common_male_dressShirt_jeans	100
+		common_female_tankTop_jeans	100
+		common_female_tshirt_skirt	100
+		common_male_riot	 	100
+	}
+		busstation
+		{
+			common_male_tshirt_cargos	100
+			common_male_tankTop_jeans	100
+			common_male_dressShirt_jeans	100
+			common_female_tankTop_jeans	100
+			common_female_tshirt_skirt	100
+			common_male_riot	 	100
+		}
+
+
+	//Minimizing the types for memory
+	//------------------------------------------------------------------------
+	frenchquarter
+	{
+		common_female_tshirt_skirt	100
+		common_male_tankTop_jeans	100
+		common_male_riot	 	100
+	}
+		ceda
+		{
+			common_male_riot	 	100
+			common_female_tshirt_skirt	100
+			common_male_tankTop_jeans	100
+		}
+
+	//Adding CEDA guys to Campaign 1
+	//------------------------------------------------------------------------
+	c1streets
+	{
+		common_female_tshirt_skirt	100
+		common_female_tankTop_jeans	100
+		common_male_dressShirt_jeans	100
+		common_male_tanktop_jeans	100
+		common_male_tshirt_cargos	100
+		common_male_ceda	 	100
+	}
+
+
+	//Adding Clown guys to Campaign 2
+	//------------------------------------------------------------------------
+	whisperingoaks
+	{
+		common_male_tshirt_cargos	100
+		common_female_tankTop_jeans	100
+		common_male_polo_jeans		100
+		common_male_tanktop_jeans	100
+		common_male_clown	 	100
+	}
+
+	//Minimizing the types for memory in c3m1
+	//------------------------------------------------------------------------
+	gatorpark
+	{
+		common_female_tshirt_skirt	100
+		common_male_tankTop_jeans	100
+		common_male_tshirt_cargos	100
+	}
+
+
+	//------------------------------------------------------------------------
+	// random zombie type spawned at the church after the mini-finale
+	church
+	{
+		hunter	100
+		smoker	100
+		boomer	100
+	}
+
+	zoo
+	{
+		common_male_tshirt_cargos		100
+		common_male_tankTop_jeans		100
+		common_male_dressShirt_jeans		100
+		common_female_tankTop_jeans		100
+		common_female_tshirt_skirt		100
+		common_male_ceda	 		100
+		common_male_mud				100
+		common_male_roadcrew			100
+		common_female_tshirt_skirt_swamp 	100
+		common_male_tshirt_cargos_swamp 	100
+		common_male_tankTop_jeans_swamp 	100
+		common_male_tankTop_jeans_rain		100
+		common_female_tankTop_jeans_rain	100
+		common_male_roadcrew_rain		100
+		common_male_tankTop_overalls		100
+		common_male_tankTop_overalls_rain	100
+		common_male_jimmy			100
+	}
+
+	smoker
+	{
+		smoker	100
+	}
+
+	hunter
+	{
+		hunter	100
+	}
+
+	boomer
+	{
+		boomer	100
+	}
+
+	tank
+	{
+		tank	100
+	}
+
+	witch
+	{
+		witch	100
+	}
+
+	jockey
+	{
+		jockey	100
+	}
+
+	charger
+	{
+		charger	100
+	}
+	spitter
+	{
+		spitter	100
+	}
+
+	new_special
+	{
+		jockey	100
+		charger	100
+		spitter	100
+	}
+
+
+}
