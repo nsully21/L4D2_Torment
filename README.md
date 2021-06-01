@@ -12,8 +12,6 @@ This game can be ran once the host has downloaded Torment.vpk and Torment5.cfg i
 
 This can be played coop with Hamachi where clients connect to host game by typing in console "connect *host ip address*"
 
-ps idk if this works with other addons so if anything weird is happening, delete your other addons
-
 
 CURENTLY ADDED GEAR:
 
@@ -26,3 +24,6 @@ Tier 5 Silenced SMG
 BUGS:
 
 if gear doesn't appear at spawn you can get them by typing in console "give pumpshotgun", "give smg" or "give smg_silenced"
+
+
+ps idk if this works with other addons so if anything weird is happening, delete your other addons
