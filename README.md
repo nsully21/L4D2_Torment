@@ -11,7 +11,7 @@ Torment5.cfg is the file that needs to be added to cfg folder in "**\Steam\Steam
 This game can be ran once the host has downloaded Torment.vpk and Torment5.cfg into their respective folders, then boot L4D2 and in the console type "exec Torment5"
 
 This can be played coop with Hamachi where clients connect to host game by typing in console "connect *host ip address*"
-
+----
 
 CURENTLY ADDED GEAR:
 
@@ -20,11 +20,11 @@ Tier 5 pump shotgun
 Tier 5 SMG
 
 Tier 5 Silenced SMG
+----
 
 BUGS:
 
 if gear doesn't appear at spawn you can get them by typing in console "give pumpshotgun", "give smg" or "give smg_silenced"
-
-
+----
 
 ps idk if this works with other addons so if anything weird is happening, delete your other addons
