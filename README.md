@@ -16,6 +16,7 @@ ps idk if this works with other addons so if anything weird is happening, delete
 
 
 CURENTLY ADDED GEAR:
+
 Tier 5 pump shotgun
 Tier 5 SMG
 Tier 5 Silenced SMG
